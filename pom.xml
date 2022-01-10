@@ -67,6 +67,11 @@
             </dependency>
             <dependency>
                 <groupId>com.farao-community.farao</groupId>
+                <artifactId>farao-glsk-document-api</artifactId>
+                <version>${farao.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.farao-community.farao</groupId>
                 <artifactId>farao-glsk-document-io-api</artifactId>
                 <version>${farao.core.version}</version>
             </dependency>
