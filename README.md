@@ -1,6 +1,6 @@
 # farao-dependencies
 
-This is a pom that defines FARAO related dependencies version. You can it this way in your project :
+This is a pom that defines FARAO related dependencies version. You can import it this way in your project :
 ```
 <dependency>
     <groupId>com.farao-community.farao</groupId>
