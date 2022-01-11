@@ -47,7 +47,17 @@
             </dependency>
             <dependency>
                 <groupId>com.farao-community.farao</groupId>
+                <artifactId>farao-crac-creation-util</artifactId>
+                <version>${farao.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.farao-community.farao</groupId>
                 <artifactId>farao-crac-creator-api</artifactId>
+                <version>${farao.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.farao-community.farao</groupId>
+                <artifactId>farao-crac-creator-cse</artifactId>
                 <version>${farao.core.version}</version>
             </dependency>
             <dependency>
@@ -225,11 +235,6 @@
                 <groupId>com.powsybl</groupId>
                 <artifactId>powsybl-ucte-util</artifactId>
                 <version>${powsybl.core.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.rte-france.farao</groupId>
-                <artifactId>farao-data-cse</artifactId>
-                <version>${farao.rte.core.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.rte-france.powsybl</groupId>
