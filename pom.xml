@@ -26,8 +26,7 @@
 
     <properties>
         <!-- Business projects version -->
-        <farao.core.version>3.6.0</farao.core.version>
-        <farao.rte.core.version>2.6.0</farao.rte.core.version>
+        <farao.core.version>3.7.0</farao.core.version>
         <powsybl.core.version>4.4.0</powsybl.core.version>
         <powsybl.open-loadflow.version>0.13.0</powsybl.open-loadflow.version>
         <powsybl.rte.core.version>3.4.0</powsybl.rte.core.version>
