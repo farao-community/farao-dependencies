@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.farao-community.farao</groupId>
         <artifactId>farao-parent</artifactId>
-        <version>1.3.0</version>
+        <version>1.4.0</version>
     </parent>
 
     <artifactId>farao-dependencies</artifactId>
@@ -26,10 +26,12 @@
 
     <properties>
         <!-- Business projects version -->
-        <farao.core.version>3.7.1</farao.core.version>
-        <powsybl.core.version>4.4.0</powsybl.core.version>
-        <powsybl.open-loadflow.version>0.13.0</powsybl.open-loadflow.version>
-        <powsybl.rte.core.version>3.4.0</powsybl.rte.core.version>
+        <farao.core.version>3.9.1</farao.core.version>
+        <powsybl.core.version>4.8.0</powsybl.core.version>
+        <powsybl.balances-adjustment.version>1.12.0</powsybl.balances-adjustment.version>
+        <powsybl.entsoe.version>1.4.0</powsybl.entsoe.version>
+        <powsybl.open-loadflow.version>0.20.0</powsybl.open-loadflow.version>
+        <powsybl.rte.core.version>3.8.0</powsybl.rte.core.version>
     </properties>
 
     <dependencyManagement>
@@ -156,6 +158,11 @@
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
+                <artifactId>powsybl-balances-adjustment</artifactId>
+                <version>${powsybl.balances-adjustment.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.powsybl</groupId>
                 <artifactId>powsybl-cgmes-conversion</artifactId>
                 <version>${powsybl.core.version}</version>
             </dependency>
@@ -184,6 +191,36 @@
                 <groupId>com.powsybl</groupId>
                 <artifactId>powsybl-contingency-api</artifactId>
                 <version>${powsybl.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.powsybl</groupId>
+                <artifactId>powsybl-glsk-commons</artifactId>
+                <version>${powsybl.entsoe.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.powsybl</groupId>
+                <artifactId>powsybl-glsk-document-api</artifactId>
+                <version>${powsybl.entsoe.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.powsybl</groupId>
+                <artifactId>powsybl-glsk-document-cim</artifactId>
+                <version>${powsybl.entsoe.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.powsybl</groupId>
+                <artifactId>powsybl-glsk-document-cse</artifactId>
+                <version>${powsybl.entsoe.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.powsybl</groupId>
+                <artifactId>powsybl-glsk-document-io-api</artifactId>
+                <version>${powsybl.entsoe.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.powsybl</groupId>
+                <artifactId>powsybl-glsk-document-ucte</artifactId>
+                <version>${powsybl.entsoe.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
