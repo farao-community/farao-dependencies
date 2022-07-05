@@ -26,7 +26,7 @@
 
     <properties>
         <!-- Business projects version -->
-        <farao.core.version>3.9.2</farao.core.version>
+        <farao.core.version>3.9.4</farao.core.version>
         <powsybl.core.version>4.8.0</powsybl.core.version>
         <powsybl.balances-adjustment.version>1.12.0</powsybl.balances-adjustment.version>
         <powsybl.entsoe.version>1.4.0</powsybl.entsoe.version>
