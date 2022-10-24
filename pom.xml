@@ -152,6 +152,11 @@
                 <version>${farao.core.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.farao-community.farao</groupId>
+                <artifactId>farao-voltage-monitoring</artifactId>
+                <version>${farao.core.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.powsybl</groupId>
                 <artifactId>powsybl-action-util</artifactId>
                 <version>${powsybl.core.version}</version>
