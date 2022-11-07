@@ -48,6 +48,11 @@
             </dependency>
             <dependency>
                 <groupId>com.farao-community.farao</groupId>
+                <artifactId>farao-swe-cne-exporter</artifactId>
+                <version>${farao.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.farao-community.farao</groupId>
                 <artifactId>farao-crac-api</artifactId>
                 <version>${farao.core.version}</version>
             </dependency>
