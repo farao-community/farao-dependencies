@@ -26,7 +26,7 @@
 
     <properties>
         <!-- Business projects version -->
-        <farao.core.version>4.1.4</farao.core.version>
+        <farao.core.version>4.2.0</farao.core.version>
         <powsybl.core.version>4.10.1</powsybl.core.version>
         <powsybl.balances-adjustment.version>1.14.0</powsybl.balances-adjustment.version>
         <powsybl.entsoe.version>1.6.1</powsybl.entsoe.version>
@@ -44,6 +44,16 @@
             <dependency>
                 <groupId>com.farao-community.farao</groupId>
                 <artifactId>farao-core-cne-exporter</artifactId>
+                <version>${farao.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.farao-community.farao</groupId>
+                <artifactId>farao-cne-exporter-commons</artifactId>
+                <version>${farao.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.farao-community.farao</groupId>
+                <artifactId>farao-swe-cne-exporter</artifactId>
                 <version>${farao.core.version}</version>
             </dependency>
             <dependency>
