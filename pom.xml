@@ -26,12 +26,11 @@
 
     <properties>
         <!-- Business projects version -->
-        <farao.core.version>4.2.0</farao.core.version>
-        <powsybl.core.version>4.10.1</powsybl.core.version>
-        <powsybl.balances-adjustment.version>1.14.0</powsybl.balances-adjustment.version>
-        <powsybl.entsoe.version>1.6.1</powsybl.entsoe.version>
-        <powsybl.open-loadflow.version>0.23.1</powsybl.open-loadflow.version>
-        <powsybl.rte.core.version>3.10.0</powsybl.rte.core.version>
+        <farao.core.version>4.2.1</farao.core.version>
+        <powsybl.core.version>5.0.0</powsybl.core.version>
+        <powsybl.entsoe.version>2.0.0</powsybl.entsoe.version>
+        <powsybl.open-loadflow.version>0.24.0</powsybl.open-loadflow.version>
+        <powsybl.rte.core.version>3.11.0</powsybl.rte.core.version>
     </properties>
 
     <dependencyManagement>
@@ -184,7 +183,7 @@
             <dependency>
                 <groupId>com.powsybl</groupId>
                 <artifactId>powsybl-balances-adjustment</artifactId>
-                <version>${powsybl.balances-adjustment.version}</version>
+                <version>${powsybl.entsoe.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
