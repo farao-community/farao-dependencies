@@ -12,7 +12,7 @@
 
     <artifactId>farao-dependencies</artifactId>
     <packaging>pom</packaging>
-    <version>1.21.0</version>
+    <version>1.21.1-SNAPSHOT</version>
 
     <name>FARAO dependencies</name>
     <description>Dependencies management for FARAO related projects</description>
