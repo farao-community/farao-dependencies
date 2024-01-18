@@ -278,7 +278,7 @@
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
-                <artifactId>powsybl-iidm-xml-converter</artifactId>
+                <artifactId>powsybl-iidm-serde</artifactId>
                 <version>${powsybl.core.version}</version>
             </dependency>
             <dependency>
