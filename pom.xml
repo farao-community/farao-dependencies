@@ -161,7 +161,22 @@
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-core-cne-exporter</artifactId>
+                <version>${powsybl.open-rao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.powsybl</groupId>
                 <artifactId>open-rao-virtual-hubs-xml</artifactId>
+                <version>${powsybl.open-rao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-virtual-hubs-api</artifactId>
+                <version>${powsybl.open-rao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-virtual-hubs-network-assigner</artifactId>
                 <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
