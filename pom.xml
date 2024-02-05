@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.farao-community.farao</groupId>
         <artifactId>farao-parent</artifactId>
-        <version>1.6.0</version>
+        <version>1.7.0</version>
     </parent>
 
     <artifactId>farao-dependencies</artifactId>
@@ -26,154 +26,168 @@
 
     <properties>
         <!-- Business projects version -->
-        <farao.core.version>5.0.0</farao.core.version>
-        <powsybl.core.version>6.1.1</powsybl.core.version>
-        <powsybl.entsoe.version>2.7.0</powsybl.entsoe.version>
-        <powsybl.open-loadflow.version>1.6.0</powsybl.open-loadflow.version>
-        <powsybl.rte.core.version>4.2.0</powsybl.rte.core.version>
+        <powsybl.open-rao.version>5.1.0</powsybl.open-rao.version>
+        <powsybl.core.version>6.2.0</powsybl.core.version>
+        <powsybl.entsoe.version>2.8.0</powsybl.entsoe.version>
+        <powsybl.open-loadflow.version>1.7.0</powsybl.open-loadflow.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-commons</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-commons</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-core-cne-exporter</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-cne-exporter</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-cne-exporter-commons</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-cne-exporter-commons</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-swe-cne-exporter</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-swe-cne-exporter</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-crac-api</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-crac-api</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-crac-creation-util</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-crac-creation-util</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-crac-creator-api</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-crac-creator-api</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-crac-creator-cim</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-crac-creator-cim</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-crac-creator-cse</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-crac-creator-cse</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-crac-creator-fb-constraint</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-crac-creator-fb-constraint</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-crac-creator-csa-profiles</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-crac-impl</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-crac-impl</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-crac-io-api</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-crac-io-api</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-crac-io-json</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-crac-io-json</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-glsk-document-api</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-glsk-document-api</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-glsk-document-io-api</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-glsk-document-io-api</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-glsk-document-cim</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-glsk-document-cim</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-glsk-document-cse</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-glsk-document-cse</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-glsk-document-ucte</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-glsk-document-ucte</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-glsk-virtual-hubs</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-glsk-virtual-hubs</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-rao-api</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-rao-api</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-rao-result-api</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-rao-result-api</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-rao-result-json</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-rao-result-json</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-reference-program</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-reference-program</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-refprog-xml-importer</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-refprog-xml-importer</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-search-tree-rao</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-search-tree-rao</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-core-cne-exporter</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-voltage-monitoring</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-virtual-hubs-xml</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.farao-community.farao</groupId>
-                <artifactId>farao-angle-monitoring</artifactId>
-                <version>${farao.core.version}</version>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-virtual-hubs-api</artifactId>
+                <version>${powsybl.open-rao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-virtual-hubs-network-assigner</artifactId>
+                <version>${powsybl.open-rao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-voltage-monitoring</artifactId>
+                <version>${powsybl.open-rao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-angle-monitoring</artifactId>
+                <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
@@ -335,11 +349,6 @@
                 <groupId>com.powsybl</groupId>
                 <artifactId>powsybl-ucte-util</artifactId>
                 <version>${powsybl.core.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.rte-france.powsybl</groupId>
-                <artifactId>powsybl-hades2-integration</artifactId>
-                <version>${powsybl.rte.core.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
