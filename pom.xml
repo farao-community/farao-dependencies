@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.farao-community.farao</groupId>
         <artifactId>farao-parent</artifactId>
-        <version>1.6.0</version>
+        <version>1.7.0</version>
     </parent>
 
     <artifactId>farao-dependencies</artifactId>
@@ -349,11 +349,6 @@
                 <groupId>com.powsybl</groupId>
                 <artifactId>powsybl-ucte-util</artifactId>
                 <version>${powsybl.core.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.rte-france.powsybl</groupId>
-                <artifactId>powsybl-hades2-integration</artifactId>
-                <version>${powsybl.rte.core.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
