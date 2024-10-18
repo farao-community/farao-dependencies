@@ -186,7 +186,7 @@
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
-                <artifactId>open-rao-monitoring</artifactId>
+                <artifactId>monitoring</artifactId>
                 <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
