@@ -26,10 +26,10 @@
 
     <properties>
         <!-- Business projects version -->
-        <powsybl.open-rao.version>6.0.2</powsybl.open-rao.version>
-        <powsybl.core.version>6.4.1</powsybl.core.version>
-        <powsybl.entsoe.version>2.10.1</powsybl.entsoe.version>
-        <powsybl.open-loadflow.version>1.12.2</powsybl.open-loadflow.version>
+        <powsybl.open-rao.version>6.1.1</powsybl.open-rao.version>
+        <powsybl.core.version>6.5.0</powsybl.core.version>
+        <powsybl.entsoe.version>2.11.0</powsybl.entsoe.version>
+        <powsybl.open-loadflow.version>1.13.1</powsybl.open-loadflow.version>
     </properties>
 
     <dependencyManagement>
@@ -61,27 +61,27 @@
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
-                <artifactId>open-rao-crac-creation-util</artifactId>
+                <artifactId>open-rao-crac-io</artifactId>
                 <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
-                <artifactId>open-rao-crac-creator-api</artifactId>
+                <artifactId>open-rao-crac-io-commons</artifactId>
                 <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
-                <artifactId>open-rao-crac-creator-cim</artifactId>
+                <artifactId>open-rao-crac-io-cim</artifactId>
                 <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
-                <artifactId>open-rao-crac-creator-cse</artifactId>
+                <artifactId>open-rao-crac-io-cse</artifactId>
                 <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
-                <artifactId>open-rao-crac-creator-fb-constraint</artifactId>
+                <artifactId>open-rao-crac-io-fb-constraint</artifactId>
                 <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
@@ -181,12 +181,7 @@
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
-                <artifactId>open-rao-voltage-monitoring</artifactId>
-                <version>${powsybl.open-rao.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.powsybl</groupId>
-                <artifactId>open-rao-angle-monitoring</artifactId>
+                <artifactId>monitoring</artifactId>
                 <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
