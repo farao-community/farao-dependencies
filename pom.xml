@@ -29,7 +29,7 @@
         <powsybl.open-rao.version>6.1.2</powsybl.open-rao.version>
         <powsybl.core.version>6.5.1</powsybl.core.version>
         <powsybl.entsoe.version>2.11.0</powsybl.entsoe.version>
-        <powsybl.open-loadflow.version>1.13.2</powsybl.open-loadflow.version>
+        <powsybl.open-loadflow.version>1.14.0</powsybl.open-loadflow.version>
     </properties>
 
     <dependencyManagement>
