@@ -26,7 +26,7 @@
 
     <properties>
         <!-- Business projects version -->
-        <powsybl.open-rao.version>6.4.0</powsybl.open-rao.version>
+        <powsybl.open-rao.version>6.5.0</powsybl.open-rao.version>
         <powsybl.core.version>6.7.0</powsybl.core.version>
         <powsybl.entsoe.version>2.13.0</powsybl.entsoe.version>
         <powsybl.open-loadflow.version>1.15.0</powsybl.open-loadflow.version>
@@ -181,7 +181,7 @@
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
-                <artifactId>monitoring</artifactId>
+                <artifactId>open-rao-monitoring</artifactId>
                 <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
