@@ -26,10 +26,10 @@
 
     <properties>
         <!-- Business projects version -->
-        <powsybl.open-rao.version>6.5.0</powsybl.open-rao.version>
-        <powsybl.core.version>6.7.0</powsybl.core.version>
-        <powsybl.entsoe.version>2.13.0</powsybl.entsoe.version>
-        <powsybl.open-loadflow.version>1.15.0</powsybl.open-loadflow.version>
+        <powsybl.open-rao.version>6.6.0</powsybl.open-rao.version>
+        <powsybl.core.version>6.8.0</powsybl.core.version>
+        <powsybl.entsoe.version>2.14.0</powsybl.entsoe.version>
+        <powsybl.open-loadflow.version>1.16.0</powsybl.open-loadflow.version>
     </properties>
 
     <dependencyManagement>
