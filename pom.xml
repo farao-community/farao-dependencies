@@ -28,7 +28,7 @@
         <!-- Business projects version -->
         <powsybl.open-rao.version>7.0.0</powsybl.open-rao.version>
         <powsybl.core.version>7.0.1</powsybl.core.version>
-        <powsybl.entsoe.version>3.0.0</powsybl.entsoe.version>
+        <powsybl.entsoe.version>3.0.1</powsybl.entsoe.version>
         <powsybl.open-loadflow.version>2.0.0</powsybl.open-loadflow.version>
     </properties>
 
