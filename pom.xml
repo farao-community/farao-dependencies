@@ -131,7 +131,12 @@
             </dependency>
             <dependency>
                 <groupId>com.powsybl</groupId>
-                <artifactId>open-rao-pst-regulation</artifactId>
+                <artifactId>open-rao-util</artifactId>
+                <version>${powsybl.open-rao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.powsybl</groupId>
+                <artifactId>open-rao-sensitivity-analysis</artifactId>
                 <version>${powsybl.open-rao.version}</version>
             </dependency>
             <dependency>
@@ -349,6 +354,13 @@
                 <groupId>com.powsybl</groupId>
                 <artifactId>powsybl-ucte-util</artifactId>
                 <version>${powsybl.core.version}</version>
+            </dependency>
+            <!-- test -->
+            <dependency>
+                <groupId>com.powsybl</groupId>
+                <artifactId>powsybl-commons-test</artifactId>
+                <version>${powsybl.core.version}</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
